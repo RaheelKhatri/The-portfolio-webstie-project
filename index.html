@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.K Portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-color: rgb(2, 2, 31);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .text-gray {
+        color: gray;
+    }
+
+    .purple {
+        color: blueviolet;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: #28286a;
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0px 23px;
+    }
+
+    .navleft {
+        font-size: 1.5rem;
+    }
+
+    /* SECTION */
+
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 130px 0px;
+        align-items: center;
+    }
+
+    .firstsection>div {
+        width: 30%;
+    }
+
+    .leftsection {
+        font-size: 3rem;
+
+    }
+
+    .leftsection .btn{
+        padding: 12px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.leftsection .btn:hover{
+    background-color: rgb(32, 10, 32);
+}
+
+
+    .rightsection img {
+        width: 80%;
+        filter: invert(100%);
+        border-radius: 20px;
+
+    }
+
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: rgb(139, 139, 177);
+        font-size: 1.05rem;
+    }
+
+    #element {
+        color: purple;
+    }
+
+    .second-section {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+    }
+
+    main hr {
+        border: 0;
+        background-color: blueviolet;
+        height: .5px;
+        margin: 40px 85px;
+    }
+
+    .second-section h1 {
+        font-size: 2rem;
+    }
+
+    .second-section .box {
+        background-color: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0px;
+        display: flex;
+    }
+
+    .second-section .vertical {
+        height: 140px;
+        width: 1px;
+        background-color: wheat;
+        margin: 0px 100px;
+    }
+
+    .image-top {
+        width: 61px;
+        height: 60px;
+        position: relative;
+        top: -60px;
+        left: -30px;
+    }
+
+    .vertical-title {
+
+        position: relative;
+        top: 75px;
+        width: 150px;
+    }
+
+    .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+    }
+
+
+    footer {
+        background-color: #1e1b1e;
+        /* height: 233px; */
+    }
+
+    .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+
+    }
+    footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+
+         
+
+    }
+
+
+
+
+    .footer ul{
+        list-style: none;
+    }
+    .footer > div{
+        width: 223px;
+    }
+</style>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="navleft">R.Ks Portfolio</div>
+            <div class="navright">
+                <ul>
+                    <li><a href="/">Home </a></li>
+                    <li><a href="/">About Us </a></li>
+                    <li><a href="/">Projects </a></li>
+                    <li><a href="/">Services </a></li>
+                    <li><a href="/">Contact me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div>
+                    Hi, This is <span class="purple">R.Ks portfolio</span>
+
+                </div>
+                <div>
+                    and it is first trial
+
+                    <span id="element"></span>
+                </div>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">visit GitHub</button>
+                </div>
+            </div>
+
+
+            <div class="rightsection">
+                <img src="pic 1.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="second-section">
+            <span class="text-gray"> What I Have Done SO far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+
+                <div class="vertical">
+                    <img class="image-top" src="Logo1.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut velit doloribus, maiores
+                        aliquid exercitationem.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="Logo 2.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut velit doloribus, maiores
+                        aliquid exercitationem.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="Logo 4.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut velit doloribus, maiores
+                        aliquid exercitationem.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="Logo 3.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut velit doloribus, maiores
+                        aliquid exercitationem.
+                    </div>
+                </div>
+
+
+                <div class="vertical">
+                    <img class="image-top" src="pic 3.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aut velit doloribus, maiores
+                        aliquid exercitationem.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>
+                    Harrys's Developer Portfolio
+                </h3>
+            </div>
+            <div class="footer-second">
+
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            www.R.KsPortolio.com | AllRightsReserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer.', 'web designer', 'video editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
